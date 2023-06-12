@@ -41,7 +41,7 @@
     "@formatjs/intl-getcanonicallocales": "^1.8.0",
     "@formatjs/intl-locale": "^2.4.40",
     "@formatjs/intl-numberformat": "^7.2.5",
-    "@formatjs/intl-pluralrules": "^4.1.5",
+    "@formatjs/intl-pluralrules": "^5.2.4",
     "@formatjs/intl-relativetimeformat": "^9.3.2",
     "@fullcalendar/common": "5.9.0",
     "@fullcalendar/core": "5.9.0",
