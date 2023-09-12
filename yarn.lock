@@ -1593,6 +1593,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@formatjs/ecma402-abstract@npm:1.17.2":
+  version: 1.17.2
+  resolution: "@formatjs/ecma402-abstract@npm:1.17.2"
+  dependencies:
+    "@formatjs/intl-localematcher": 0.4.2
+    tslib: ^2.4.0
+  checksum: 026382b1fb295cef4387b2f2a34dace107b12fb7607793093b26595b0d639a30e5f4539665730897eb77eefabee2bb35c156896c63925b0ec03b746751e3fb00
+  languageName: node
+  linkType: hard
+
 "@formatjs/ecma402-abstract@npm:1.9.8":
   version: 1.9.8
   resolution: "@formatjs/ecma402-abstract@npm:1.9.8"
@@ -1684,6 +1694,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@formatjs/intl-localematcher@npm:0.4.2":
+  version: 0.4.2
+  resolution: "@formatjs/intl-localematcher@npm:0.4.2"
+  dependencies:
+    tslib: ^2.4.0
+  checksum: df579d8c453a11eed1ec55604f8dda121d728fc5109ed885892347a126089caef95a0edf71f1f6db3134bb9e73787062995baf7746a2577e8ca2980dcd6590cb
+  languageName: node
+  linkType: hard
+
 "@formatjs/intl-numberformat@npm:^7.2.5":
   version: 7.2.5
   resolution: "@formatjs/intl-numberformat@npm:7.2.5"
@@ -1694,14 +1713,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@formatjs/intl-pluralrules@npm:^4.1.5":
-  version: 4.1.5
-  resolution: "@formatjs/intl-pluralrules@npm:4.1.5"
+"@formatjs/intl-pluralrules@npm:^5.2.6":
+  version: 5.2.6
+  resolution: "@formatjs/intl-pluralrules@npm:5.2.6"
   dependencies:
-    "@formatjs/ecma402-abstract": 1.10.0
-    "@formatjs/intl-localematcher": 0.2.21
-    tslib: ^2.1.0
-  checksum: ad552ae374b5706929dfa6384fde50aa03e50995e4f71d402142d34caeef5c0778c2f4078cfca89b80dd064783f66ee9cdf460b906ef5ba99fb558e33944dc54
+    "@formatjs/ecma402-abstract": 1.17.2
+    "@formatjs/intl-localematcher": 0.4.2
+    tslib: ^2.4.0
+  checksum: 35805d07c21d1f759f9b49a1cc745d989b0884a265133518740512e86c6ebcadf1532074e11deae2e1a2e672bb8883f036e2d8a47fb3b04f86ccb9a3ba8429e5
   languageName: node
   linkType: hard
 
@@ -9343,7 +9362,7 @@ fsevents@^1.2.7:
     "@formatjs/intl-getcanonicallocales": ^1.8.0
     "@formatjs/intl-locale": ^2.4.40
     "@formatjs/intl-numberformat": ^7.2.5
-    "@formatjs/intl-pluralrules": ^4.1.5
+    "@formatjs/intl-pluralrules": ^5.2.6
     "@formatjs/intl-relativetimeformat": ^9.3.2
     "@fullcalendar/common": 5.9.0
     "@fullcalendar/core": 5.9.0
